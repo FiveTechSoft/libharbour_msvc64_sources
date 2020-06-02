@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\vm">
+      <UniqueIdentifier>{3cc0dc49-36da-4329-910b-b5cc93718ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{ee3f08ab-3c18-413f-b9a2-7af8e8ef37c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rtl">
+      <UniqueIdentifier>{f46461a7-0b70-4cdc-af9a-f6a9eff298d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rd">
+      <UniqueIdentifier>{e89ed33c-47fb-41d6-9694-424c3d4a42d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rd\zlib">
+      <UniqueIdentifier>{16ba6f25-5294-4207-b769-791af1eceb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nulrdd">
+      <UniqueIdentifier>{f6a587d3-1848-4bec-965d-5da30d74c1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\macro">
+      <UniqueIdentifier>{399c6732-9413-4c7f-98b2-53aad984eefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gtwin">
+      <UniqueIdentifier>{2efd7bc9-8a6a-470e-aeee-0e2e760f17ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\rtl\arc4.h">
+      <Filter>Source Files\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\rtl\sha1.h">
+      <Filter>Source Files\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\rtl\sha1hmac.h">
+      <Filter>Source Files\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\rtl\sha2.h">
+      <Filter>Source Files\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\rtl\sha2hmac.h">
+      <Filter>Source Files\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\crc32.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\deflate.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\gzguts.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\inffast.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\inffixed.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\inflate.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\inftrees.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\trees.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\zconf.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\zlib.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\3rd\zlib\zutil.h">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="harbour\sources\macro\macroy.h">
+      <Filter>Source Files\macro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\arrays.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\arrayshb.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\asort.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\break.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\classes.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\cmdarg.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\codebloc.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\debug.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\dynlibhb.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\dynsym.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\estack.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\eval.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\evalhb.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\extend.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\extrap.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\fm.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\garbage.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\harbinit.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\hashes.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\hashfunc.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\hvm.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\initexit.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\initsymb.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\itemapi.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\macro.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\main.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\memvars.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\memvclip.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\pbyref.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\pcount.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\proc.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\procaddr.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\pvalue.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\pvaluehb.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\runner.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\set.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\short.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\strapi.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\thread.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\vm\vm.c">
+      <Filter>Source Files\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\expropt1.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\expropt2.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\funcid.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbarch.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbdate.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbffind.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbfopen.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbfsapi.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbgete.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbhash.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbmem.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbprintf.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbstr.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbstrbm.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbtrace.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbver.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbverdsp.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbwin.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\hbwince.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\common\strwild.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\abs.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\accept.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\alert.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\ampm.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\arc4.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\at.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\ati.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\base64c.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\base64d.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\binnum.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\box.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\cdpapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\cdpapihb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\cdpbox.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\cdpdetc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\chrasc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\chruni.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\colorind.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\console.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\copyfile.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\cputime.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\datec.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\dates.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\dateshb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\datesx.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\defpath.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\defpathu.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\descend.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\dirdrive.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\direct.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\diskspac.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\disksphb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\do.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\empty.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\errapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\errapiu.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\errint.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\errintlo.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\errsys.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\file.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\filebuf.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\filebufd.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\filehb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\filesys.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fkmax.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fmhb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fnsplit.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fscopy.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fserr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fslink.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fssize.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\fstemp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gete.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gt.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtapiu.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtchrmap.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtclip.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtfunc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtkbstat.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtkeycod.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gtsys.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gttone.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\gx.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hardcr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbadler.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbascii.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbbffnc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbbfish.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbbfsock.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbbit.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbbyte.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbcom.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbcomhb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbcrc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbdef.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbdyn.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbdynhb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbfeof.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbfile.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbfilehc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbgtcore.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbhex.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbi18n1.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbinet.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbinetz.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbjson.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hblpp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hblpphb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbmd5.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbmd5enc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbntos.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbproces.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbprocfn.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbrand.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbrandom.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbrunfun.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsha1.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsha1hm.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsha2.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsha2hm.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsocket.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbsockhb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbstrfmt.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbstrsh.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbtoken.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbzlib.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbzlibc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbzlibgz.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbznet.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\hbzsock.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\idle.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\inkey.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\inkeyapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\iousr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\is.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\isprint.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\itemseri.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\lang.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\langapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\left.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\len.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\lennum.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\libnamec.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\math.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\maxrow.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\memofile.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\minmax.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mlcfunc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mod.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mouse53.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mouseapi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mousehb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\mtran.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\natmsg.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\natmsgu.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\net.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\netusr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\objfunc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\oemansi.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\oldbox.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\oldclear.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\pad.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\padx.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\philes.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\philes53.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\rat.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\replic.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\right.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\round.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\run.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\samples.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\saverest.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\scroll.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\scrrow.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\seconds.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\setcolor.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\setcurs.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\setkey.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\setpos.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\setposbs.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\sha1.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\sha1hmac.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\sha2.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\sha2hmac.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\shadow.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\shadowu.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\soundex.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\space.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\spfiles.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\str.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strcase.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strclear.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strrepl.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strtoexp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strtran.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strutf8.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strxor.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\strzero.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\stuff.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\substr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tclass.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tobject.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tone.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\trace.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\transfrm.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\trim.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalar.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalara.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarb.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarc.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalard.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarh.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarl.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarn.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalarp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalars.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalart.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\tscalaru.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\type.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\val.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\valtoexp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\valtostr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\valtype.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\version.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\vfile.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\word.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\xhelp.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\rtl\xsavescr.c">
+      <Filter>Source Files\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\adler32.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\compress.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\crc32.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\deflate.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\gzclose.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\gzlib.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\gzread.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\gzwrite.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\infback.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\inffast.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\inflate.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\inftrees.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\trees.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\uncompr.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\3rd\zlib\zutil.c">
+      <Filter>Source Files\3rd\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\nulrdd\nulsys.c">
+      <Filter>Source Files\nulrdd</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\macro\macroa.c">
+      <Filter>Source Files\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\macro\macrob.c">
+      <Filter>Source Files\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\macro\macrolex.c">
+      <Filter>Source Files\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\macro\macroy.c">
+      <Filter>Source Files\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="harbour\sources\gtwin\gtwin.c">
+      <Filter>Source Files\gtwin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="harbour\sources\vm\harbinit.prg">
+      <Filter>Source Files\vm</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\alert.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\errsys.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\objfunc.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\tclass.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\tobject.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\tscalar.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\rtl\valtoexp.prg">
+      <Filter>Source Files\rtl</Filter>
+    </None>
+    <None Include="harbour\sources\macro\macro.y">
+      <Filter>Source Files\macro</Filter>
+    </None>
+    <None Include="harbour\sources\macro\macro.yyc">
+      <Filter>Source Files\macro</Filter>
+    </None>
+    <None Include="harbour\sources\macro\macro.yyh">
+      <Filter>Source Files\macro</Filter>
+    </None>
+  </ItemGroup>
+</Project>
