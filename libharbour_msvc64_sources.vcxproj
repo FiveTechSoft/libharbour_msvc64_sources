@@ -479,6 +479,12 @@
     <None Include="harbour\sources\rtl\tscalar.prg" />
     <None Include="harbour\sources\rtl\valtoexp.prg" />
     <None Include="harbour\sources\vm\harbinit.prg" />
+    <CustomBuild Include="test.prg">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">harbour\bin\harbour -n %(Identity) -Iharbour\include -o%(RelativeDir)%(Filename).c</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)%(RelativeDir)%(Filename).c</Outputs>
+    </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

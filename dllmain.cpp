@@ -18,6 +18,18 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                hb_vmInit( HB_FALSE );
                s_bInit = HB_TRUE;
             } 
+            do {
+               PHB_DYNS pDynSym = hb_dynsymFind( "MAIN" );
+
+               if( pDynSym && hb_dynsymIsFunction( pDynSym ) &&
+                   hb_vmRequestReenter() )
+               {
+                  hb_vmPushDynSym( pDynSym );
+                  hb_vmPushNil();
+                  hb_vmProc( 0 );
+                  hb_vmRequestRestore();
+               }
+            } while( 0 );
             break;
   
        case DLL_THREAD_ATTACH:

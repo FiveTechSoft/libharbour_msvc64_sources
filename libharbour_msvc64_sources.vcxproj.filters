@@ -1010,4 +1010,9 @@
       <Filter>Source Files\macro</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="test.prg">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
 </Project>
