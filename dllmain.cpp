@@ -8,14 +8,16 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                        LPVOID lpReserved
                      )
 {
-    static HB_BOOL s_fInit = HB_FALSE;
+    static HB_BOOL s_bInit = HB_FALSE;
 
-    switch (ul_reason_for_call)
+    switch( ul_reason_for_call )
     {
        case DLL_PROCESS_ATTACH:
-            s_fInit = ! hb_vmIsActive();
-            if( s_fInit )
+            if( ! hb_vmIsActive() )
+            {  
                hb_vmInit( HB_FALSE );
+               s_bInit = HB_TRUE;
+            } 
             break;
   
        case DLL_THREAD_ATTACH:
@@ -25,13 +27,12 @@ BOOL APIENTRY DllMain( HMODULE hModule,
             break;
 
        case DLL_PROCESS_DETACH:
-            if( s_fInit )
+            if( s_bInit )
             {
                hb_vmQuit();
-               s_fInit = HB_FALSE;
+               s_bInit = HB_FALSE;
             }
             break;
     }
     return TRUE;
 }
-
