@@ -9,7 +9,9 @@ int main()
     HMODULE hDll = LoadLibrary( L"libharbour_msvc64_sources.dll" );
 
     std::cout << "Hello World!\n";
+
     FreeLibrary( hDll );
+
     return 0;
 }
 

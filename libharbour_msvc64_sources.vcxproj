@@ -131,6 +131,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>winmm.lib;ws2_32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AssemblyDebug>true</AssemblyDebug>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -466,6 +467,7 @@
     <ClCompile Include="harbour\sources\vm\strapi.c" />
     <ClCompile Include="harbour\sources\vm\thread.c" />
     <ClCompile Include="harbour\sources\vm\vm.c" />
+    <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="harbour\sources\macro\macro.y" />

@@ -974,6 +974,9 @@
     <ClCompile Include="harbour\sources\gtwin\gtwin.c">
       <Filter>Source Files\gtwin</Filter>
     </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="harbour\sources\vm\harbinit.prg">
