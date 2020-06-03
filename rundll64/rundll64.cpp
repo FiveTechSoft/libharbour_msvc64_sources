@@ -15,8 +15,9 @@ int main()
 
    while( i++ < 6 )
    {
-      hThread = CreateThread( &sa, 0, ( LPTHREAD_START_ROUTINE ) process, 0, 0, &dwThreadId ); 
-      // CloseHandle( hThread );
+      hThread = CreateThread( 0, 0, ( LPTHREAD_START_ROUTINE ) process, 0, 0, &dwThreadId ); 
+      // GetLastError();
+      CloseHandle( hThread );
    }
 
    return 0;
