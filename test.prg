@@ -1,6 +1,7 @@
 function Main()
 
-   ? "Hola mundo!"
+   ? hb_mtvm()
+
    // MsgInfo()
 
 return nil 
