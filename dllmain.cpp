@@ -33,13 +33,15 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReser
             do {
                PHB_DYNS pDynSym = hb_dynsymFind( "THREADATTACH" );
 
-               if( pDynSym && hb_dynsymIsFunction( pDynSym ) &&
-                   hb_vmRequestReenter() )
+               if( pDynSym && hb_dynsymIsFunction( pDynSym ) ) 
                {
-                  hb_vmPushDynSym( pDynSym );
-                  hb_vmPushNil();
-                  hb_vmProc( 0 );
-                  hb_vmRequestRestore();
+                  if( hb_vmRequestReenter() )
+                  { 
+                     hb_vmPushDynSym( pDynSym );
+                     hb_vmPushNil();
+                     hb_vmProc( 0 );
+                     hb_vmRequestRestore();
+                  }
                }
             } while( 0 );
             break;
@@ -60,6 +62,18 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReser
             break;
 
        case DLL_PROCESS_DETACH:
+            do {
+               PHB_DYNS pDynSym = hb_dynsymFind( "PROCESSDETACH" );
+
+               if( pDynSym && hb_dynsymIsFunction( pDynSym ) &&
+                   hb_vmRequestReenter() )
+               {
+                  hb_vmPushDynSym( pDynSym );
+                  hb_vmPushNil();
+                  hb_vmProc( 0 );
+                  hb_vmRequestRestore();
+               }
+            } while( 0 );
             if( s_bInit )
             {
                hb_vmQuit();

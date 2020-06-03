@@ -17,3 +17,9 @@ function ThreadDetach()
    ? "Thread detach"
 
 return nil
+
+function ProcessDetach()
+
+   ? "ProcessDetach"
+
+return nil
