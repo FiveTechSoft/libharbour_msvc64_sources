@@ -2,18 +2,18 @@ function Main()
 
    ? hb_mtvm()
 
-   // MsgInfo()
-
 return nil 
 
-#pragma BEGINDUMP
+function ThreadAttach()
 
-#include <windows.h>
-#include <hbapi.h>
+   static nThread := 1
 
-HB_FUNC( MSGINFO )
-{
-   MessageBox( 0, L"ok", L"Information", MB_ICONINFORMATION );
-}
+   ? "New Thread: ", nThread++
 
-#pragma ENDDUMP
+return nil
+
+function ThreadDetach()
+
+   ? "Thread detach"
+
+return nil
