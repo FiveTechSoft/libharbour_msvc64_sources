@@ -31,33 +31,21 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReser
   
        case DLL_THREAD_ATTACH:
             do {
-               PHB_DYNS pDynSym = hb_dynsymFind( "THREADATTACH" );
-
-               if( pDynSym && hb_dynsymIsFunction( pDynSym ) ) 
-               {
-                  if( hb_vmRequestReenter() )
-                  { 
-                     hb_vmPushDynSym( pDynSym );
-                     hb_vmPushNil();
-                     hb_vmProc( 0 );
-                     hb_vmRequestRestore();
-                  }
-               }
+            	hb_vmThreadInit( NULL );
+            	hb_vmPushDynSym( hb_dynsymFind( "THREADATTACH" ) );
+	            hb_vmPushNil(); 
+	            hb_vmFunction( 0 );
+	            hb_vmThreadQuit();
             } while( 0 );
             break;
  
        case DLL_THREAD_DETACH:
             do {
-               PHB_DYNS pDynSym = hb_dynsymFind( "THREADDETACH" );
-
-               if( pDynSym && hb_dynsymIsFunction( pDynSym ) &&
-                   hb_vmRequestReenter() )
-               {
-                  hb_vmPushDynSym( pDynSym );
-                  hb_vmPushNil();
-                  hb_vmProc( 0 );
-                  hb_vmRequestRestore();
-               }
+            	hb_vmThreadInit( NULL );
+            	hb_vmPushDynSym( hb_dynsymFind( "THREADDETACH" ) );
+	            hb_vmPushNil(); 
+	            hb_vmFunction( 0 );
+	            hb_vmThreadQuit();
             } while( 0 );
             break;
 

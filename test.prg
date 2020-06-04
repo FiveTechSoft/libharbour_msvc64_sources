@@ -1,25 +1,27 @@
+static cResult := ""
+
 function Main()
 
-   ? hb_mtvm()
+   cResult += "Process Attach" + hb_OsNewLine()
 
 return nil 
 
 function ThreadAttach()
 
-   static nThread := 1
-
-   ? "New Thread: ", nThread++
+   cResult += "New thread" + hb_OsNewLine()
 
 return nil
 
 function ThreadDetach()
 
-   ? "Thread detach"
+   cResult += "thread detach" + hb_OsNewLine()
 
 return nil
 
 function ProcessDetach()
 
-   ? "ProcessDetach"
+   cResult += "Process detach" + hb_OsNewLine()
+
+   ? cResult 
 
 return nil
